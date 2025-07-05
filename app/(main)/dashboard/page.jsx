@@ -1,9 +1,15 @@
 import React from 'react'
+import WelcomeContainer from './_components/WelcomeContainer'
+import CreateOptions from './_components/CreateOptions'
+import LatestInterviewList from './_components/LatestInterviewList'
 
 function Dashboard() {
   return (
     <div>
-      Dashbaords
+   <WelcomeContainer/>
+   <h2 className='text-2xl my-3 font-bold'> Dashboard </h2>
+   <CreateOptions/>
+   <LatestInterviewList/>
     </div>
   )
 }
