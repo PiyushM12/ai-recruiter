@@ -6,7 +6,7 @@ import LatestInterviewList from './_components/LatestInterviewList'
 function Dashboard() {
   return (
     <div>
-   <WelcomeContainer/>
+   {/* <WelcomeContainer/> */}
    <h2 className='text-2xl my-3 font-bold'> Dashboard </h2>
    <CreateOptions/>
    <LatestInterviewList/>

@@ -14,9 +14,7 @@ function LatestInterviewList() {
         <Video className='h-10 w-10 text-primary'/>
         <h2>You don't have any interview created </h2>
         <Button> <Plus/> Create New Interview</Button>
-        <h2>
-
-        </h2>
+       
         </div> }
     </div>
   )
